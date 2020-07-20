@@ -12,17 +12,21 @@ import ListaAlunos from './components/repeticao/ListaAunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
+import DiretaPai from './components/comunicacao/DiretaPai'
 
 export default _ =>
     <div className="App">
         <h1>Fundamentos React (Arrow) </h1>
         <div className="Cards">
+            <Card titulo="#09 Comunicação direta" color="#00FFFF">
+                <DiretaPai/>
+            </Card>
             <Card titulo="#08 Impar ou Par" color="#00FFFF">
-                <ParOuImpar 
+                <ParOuImpar
                     numero={2}
                 />
-                <UsuarioInfo usuario={{nome: "Amanda"}}/>
-                <UsuarioInfo usuario={{email: "Amanda.com"}}/>
+                <UsuarioInfo usuario={{ nome: "Amanda" }} />
+                <UsuarioInfo usuario={{ email: "Amanda.com" }} />
             </Card>
 
             <Card titulo="#07 Repetição" color="#00FFFF">
