@@ -14,11 +14,16 @@ import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai.jsx'
+import Input from './components/formularios/Imput.jsx'
 
 export default _ =>
     <div className="App">
         <h1>Fundamentos React (Arrow) </h1>
         <div className="Cards">
+            <Card titulo="#11 Input" color="#00FFFF">
+                <Input />
+            </Card>
+
             <Card titulo="#10 Comunicação indireta" color="#00FFFF">
                 <IndiretaPai />
             </Card>
