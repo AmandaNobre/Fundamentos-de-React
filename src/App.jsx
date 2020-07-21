@@ -15,11 +15,16 @@ import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai.jsx'
 import Input from './components/formularios/Imput.jsx'
+import Contador from './components/contador/Contador.jsx'
 
 export default _ =>
     <div className="App">
         <h1>Fundamentos React (Arrow) </h1>
         <div className="Cards">
+            <Card titulo="#12 Contador" color="#00FFFF">
+                <Contador numeroInicial = {10}></Contador>
+            </Card>
+
             <Card titulo="#11 Input" color="#00FFFF">
                 <Input />
             </Card>
